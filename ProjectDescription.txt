@@ -1,0 +1,10 @@
+Write an simple app that displays the user’s contacts in a table view. Each cell should display first name, last name, and image. Tapping a contact should push a view controller that shows the contact’s home address on a map view.
+
+Constraints:
+- Don’t use Interface Builder, Story Boards, or UITableViewController.
+
+Suggestions:
+- Keep in mind the performance implications of large numbers of contacts in an address book.
+- Take steps to keep the table view scrolling as fast as possible, even on a slow device.
+
+Extra points for any cool features you add that aren’t explicitly mentioned here.
