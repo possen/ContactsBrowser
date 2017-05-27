@@ -29,7 +29,6 @@ class DetailViewController: UIViewController {
         view?.backgroundColor = UIColor.white
         map = MKMapView(frame: self.view.frame)
         
-        
         // create the placemarks
         for postalAddress in model.postalAddresses {
             let address = postalAddress.value
